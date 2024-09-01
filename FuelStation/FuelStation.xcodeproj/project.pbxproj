@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A75AC482C84F4CD00BC7E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A75AC472C84F4CD00BC7E16 /* AppDelegate.swift */; };
+		1A75AC4A2C84F4CD00BC7E16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A75AC492C84F4CD00BC7E16 /* SceneDelegate.swift */; };
+		1A75AC4C2C84F4CD00BC7E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A75AC4B2C84F4CD00BC7E16 /* ViewController.swift */; };
+		1A75AC4F2C84F4CD00BC7E16 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1A75AC4E2C84F4CD00BC7E16 /* Base */; };
+		1A75AC512C84F4CE00BC7E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A75AC502C84F4CE00BC7E16 /* Assets.xcassets */; };
+		1A75AC542C84F4CE00BC7E16 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1A75AC532C84F4CE00BC7E16 /* Base */; };
+		1A75AC5F2C84F4CE00BC7E16 /* FuelStationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A75AC5E2C84F4CE00BC7E16 /* FuelStationTests.swift */; };
+		1A75AC692C84F4CE00BC7E16 /* FuelStationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A75AC682C84F4CE00BC7E16 /* FuelStationUITests.swift */; };
+		1A75AC6B2C84F4CE00BC7E16 /* FuelStationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A75AC6A2C84F4CE00BC7E16 /* FuelStationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A75AC5B2C84F4CE00BC7E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A75AC3C2C84F4CD00BC7E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A75AC432C84F4CD00BC7E16;
+			remoteInfo = FuelStation;
+		};
+		1A75AC652C84F4CE00BC7E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A75AC3C2C84F4CD00BC7E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A75AC432C84F4CD00BC7E16;
+			remoteInfo = FuelStation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A75AC442C84F4CD00BC7E16 /* FuelStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A75AC472C84F4CD00BC7E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A75AC492C84F4CD00BC7E16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A75AC4B2C84F4CD00BC7E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A75AC4E2C84F4CD00BC7E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A75AC502C84F4CE00BC7E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A75AC532C84F4CE00BC7E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A75AC552C84F4CE00BC7E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A75AC5A2C84F4CE00BC7E16 /* FuelStationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuelStationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A75AC5E2C84F4CE00BC7E16 /* FuelStationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelStationTests.swift; sourceTree = "<group>"; };
+		1A75AC642C84F4CE00BC7E16 /* FuelStationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuelStationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A75AC682C84F4CE00BC7E16 /* FuelStationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelStationUITests.swift; sourceTree = "<group>"; };
+		1A75AC6A2C84F4CE00BC7E16 /* FuelStationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelStationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A75AC412C84F4CD00BC7E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A75AC572C84F4CE00BC7E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A75AC612C84F4CE00BC7E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A75AC3B2C84F4CD00BC7E16 = {
+			isa = PBXGroup;
+			children = (
+				1A75AC462C84F4CD00BC7E16 /* FuelStation */,
+				1A75AC5D2C84F4CE00BC7E16 /* FuelStationTests */,
+				1A75AC672C84F4CE00BC7E16 /* FuelStationUITests */,
+				1A75AC452C84F4CD00BC7E16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A75AC452C84F4CD00BC7E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A75AC442C84F4CD00BC7E16 /* FuelStation.app */,
+				1A75AC5A2C84F4CE00BC7E16 /* FuelStationTests.xctest */,
+				1A75AC642C84F4CE00BC7E16 /* FuelStationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A75AC462C84F4CD00BC7E16 /* FuelStation */ = {
+			isa = PBXGroup;
+			children = (
+				1A75AC472C84F4CD00BC7E16 /* AppDelegate.swift */,
+				1A75AC492C84F4CD00BC7E16 /* SceneDelegate.swift */,
+				1A75AC4B2C84F4CD00BC7E16 /* ViewController.swift */,
+				1A75AC4D2C84F4CD00BC7E16 /* Main.storyboard */,
+				1A75AC502C84F4CE00BC7E16 /* Assets.xcassets */,
+				1A75AC522C84F4CE00BC7E16 /* LaunchScreen.storyboard */,
+				1A75AC552C84F4CE00BC7E16 /* Info.plist */,
+			);
+			path = FuelStation;
+			sourceTree = "<group>";
+		};
+		1A75AC5D2C84F4CE00BC7E16 /* FuelStationTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A75AC5E2C84F4CE00BC7E16 /* FuelStationTests.swift */,
+			);
+			path = FuelStationTests;
+			sourceTree = "<group>";
+		};
+		1A75AC672C84F4CE00BC7E16 /* FuelStationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A75AC682C84F4CE00BC7E16 /* FuelStationUITests.swift */,
+				1A75AC6A2C84F4CE00BC7E16 /* FuelStationUITestsLaunchTests.swift */,
+			);
+			path = FuelStationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A75AC432C84F4CD00BC7E16 /* FuelStation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A75AC6E2C84F4CE00BC7E16 /* Build configuration list for PBXNativeTarget "FuelStation" */;
+			buildPhases = (
+				1A75AC402C84F4CD00BC7E16 /* Sources */,
+				1A75AC412C84F4CD00BC7E16 /* Frameworks */,
+				1A75AC422C84F4CD00BC7E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuelStation;
+			productName = FuelStation;
+			productReference = 1A75AC442C84F4CD00BC7E16 /* FuelStation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A75AC592C84F4CE00BC7E16 /* FuelStationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A75AC712C84F4CE00BC7E16 /* Build configuration list for PBXNativeTarget "FuelStationTests" */;
+			buildPhases = (
+				1A75AC562C84F4CE00BC7E16 /* Sources */,
+				1A75AC572C84F4CE00BC7E16 /* Frameworks */,
+				1A75AC582C84F4CE00BC7E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A75AC5C2C84F4CE00BC7E16 /* PBXTargetDependency */,
+			);
+			name = FuelStationTests;
+			productName = FuelStationTests;
+			productReference = 1A75AC5A2C84F4CE00BC7E16 /* FuelStationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A75AC632C84F4CE00BC7E16 /* FuelStationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A75AC742C84F4CE00BC7E16 /* Build configuration list for PBXNativeTarget "FuelStationUITests" */;
+			buildPhases = (
+				1A75AC602C84F4CE00BC7E16 /* Sources */,
+				1A75AC612C84F4CE00BC7E16 /* Frameworks */,
+				1A75AC622C84F4CE00BC7E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A75AC662C84F4CE00BC7E16 /* PBXTargetDependency */,
+			);
+			name = FuelStationUITests;
+			productName = FuelStationUITests;
+			productReference = 1A75AC642C84F4CE00BC7E16 /* FuelStationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A75AC3C2C84F4CD00BC7E16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1A75AC432C84F4CD00BC7E16 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1A75AC592C84F4CE00BC7E16 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1A75AC432C84F4CD00BC7E16;
+					};
+					1A75AC632C84F4CE00BC7E16 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1A75AC432C84F4CD00BC7E16;
+					};
+				};
+			};
+			buildConfigurationList = 1A75AC3F2C84F4CD00BC7E16 /* Build configuration list for PBXProject "FuelStation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A75AC3B2C84F4CD00BC7E16;
+			productRefGroup = 1A75AC452C84F4CD00BC7E16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A75AC432C84F4CD00BC7E16 /* FuelStation */,
+				1A75AC592C84F4CE00BC7E16 /* FuelStationTests */,
+				1A75AC632C84F4CE00BC7E16 /* FuelStationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A75AC422C84F4CD00BC7E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A75AC512C84F4CE00BC7E16 /* Assets.xcassets in Resources */,
+				1A75AC542C84F4CE00BC7E16 /* Base in Resources */,
+				1A75AC4F2C84F4CD00BC7E16 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A75AC582C84F4CE00BC7E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A75AC622C84F4CE00BC7E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A75AC402C84F4CD00BC7E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A75AC4C2C84F4CD00BC7E16 /* ViewController.swift in Sources */,
+				1A75AC482C84F4CD00BC7E16 /* AppDelegate.swift in Sources */,
+				1A75AC4A2C84F4CD00BC7E16 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A75AC562C84F4CE00BC7E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A75AC5F2C84F4CE00BC7E16 /* FuelStationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A75AC602C84F4CE00BC7E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A75AC692C84F4CE00BC7E16 /* FuelStationUITests.swift in Sources */,
+				1A75AC6B2C84F4CE00BC7E16 /* FuelStationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A75AC5C2C84F4CE00BC7E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A75AC432C84F4CD00BC7E16 /* FuelStation */;
+			targetProxy = 1A75AC5B2C84F4CE00BC7E16 /* PBXContainerItemProxy */;
+		};
+		1A75AC662C84F4CE00BC7E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A75AC432C84F4CD00BC7E16 /* FuelStation */;
+			targetProxy = 1A75AC652C84F4CE00BC7E16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A75AC4D2C84F4CD00BC7E16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A75AC4E2C84F4CD00BC7E16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A75AC522C84F4CE00BC7E16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A75AC532C84F4CE00BC7E16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A75AC6C2C84F4CE00BC7E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A75AC6D2C84F4CE00BC7E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A75AC6F2C84F4CE00BC7E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FuelStation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.FuelStation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A75AC702C84F4CE00BC7E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FuelStation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.FuelStation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A75AC722C84F4CE00BC7E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.FuelStationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuelStation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FuelStation";
+			};
+			name = Debug;
+		};
+		1A75AC732C84F4CE00BC7E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.FuelStationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuelStation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FuelStation";
+			};
+			name = Release;
+		};
+		1A75AC752C84F4CE00BC7E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.FuelStationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FuelStation;
+			};
+			name = Debug;
+		};
+		1A75AC762C84F4CE00BC7E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.FuelStationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FuelStation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A75AC3F2C84F4CD00BC7E16 /* Build configuration list for PBXProject "FuelStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A75AC6C2C84F4CE00BC7E16 /* Debug */,
+				1A75AC6D2C84F4CE00BC7E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A75AC6E2C84F4CE00BC7E16 /* Build configuration list for PBXNativeTarget "FuelStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A75AC6F2C84F4CE00BC7E16 /* Debug */,
+				1A75AC702C84F4CE00BC7E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A75AC712C84F4CE00BC7E16 /* Build configuration list for PBXNativeTarget "FuelStationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A75AC722C84F4CE00BC7E16 /* Debug */,
+				1A75AC732C84F4CE00BC7E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A75AC742C84F4CE00BC7E16 /* Build configuration list for PBXNativeTarget "FuelStationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A75AC752C84F4CE00BC7E16 /* Debug */,
+				1A75AC762C84F4CE00BC7E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A75AC3C2C84F4CD00BC7E16 /* Project object */;
+}
