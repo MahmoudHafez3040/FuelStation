@@ -99,6 +99,7 @@
 		1A75AC462C84F4CD00BC7E16 /* FuelStation */ = {
 			isa = PBXGroup;
 			children = (
+				1A75AC772C84F59F00BC7E16 /* Views */,
 				1A75AC472C84F4CD00BC7E16 /* AppDelegate.swift */,
 				1A75AC492C84F4CD00BC7E16 /* SceneDelegate.swift */,
 				1A75AC4B2C84F4CD00BC7E16 /* ViewController.swift */,
@@ -125,6 +126,13 @@
 				1A75AC6A2C84F4CE00BC7E16 /* FuelStationUITestsLaunchTests.swift */,
 			);
 			path = FuelStationUITests;
+			sourceTree = "<group>";
+		};
+		1A75AC772C84F59F00BC7E16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
