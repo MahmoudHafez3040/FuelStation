@@ -16,6 +16,7 @@
 		1A75AC5F2C84F4CE00BC7E16 /* FuelStationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A75AC5E2C84F4CE00BC7E16 /* FuelStationTests.swift */; };
 		1A75AC692C84F4CE00BC7E16 /* FuelStationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A75AC682C84F4CE00BC7E16 /* FuelStationUITests.swift */; };
 		1A75AC6B2C84F4CE00BC7E16 /* FuelStationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A75AC6A2C84F4CE00BC7E16 /* FuelStationUITestsLaunchTests.swift */; };
+		1A75AC792C84F5F500BC7E16 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A75AC782C84F5F500BC7E16 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1A75AC642C84F4CE00BC7E16 /* FuelStationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuelStationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A75AC682C84F4CE00BC7E16 /* FuelStationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelStationUITests.swift; sourceTree = "<group>"; };
 		1A75AC6A2C84F4CE00BC7E16 /* FuelStationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelStationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A75AC782C84F5F500BC7E16 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		1A75AC772C84F59F00BC7E16 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1A75AC782C84F5F500BC7E16 /* main.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				1A75AC4C2C84F4CD00BC7E16 /* ViewController.swift in Sources */,
 				1A75AC482C84F4CD00BC7E16 /* AppDelegate.swift in Sources */,
+				1A75AC792C84F5F500BC7E16 /* main.swift in Sources */,
 				1A75AC4A2C84F4CD00BC7E16 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
